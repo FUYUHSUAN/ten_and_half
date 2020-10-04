@@ -1,3 +1,4 @@
+```
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
@@ -9,6 +10,7 @@ int main(void)
         float computer=0,player=0,ans1=0,ans2=0;
         srand(time(NULL));
         do{
+        
             player=rand()%13+1;
             if(player==11||player==12||player==13){
                 player=0.5;
@@ -59,3 +61,4 @@ int main(void)
     printf("You lose %d time\n",l);
     return 0;
 }
+```
